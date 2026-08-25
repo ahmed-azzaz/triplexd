@@ -240,8 +240,20 @@
       "form.msgLabel": "What's slowing your decisions down? <span class='req'>*</span>",
       "form.msgPh": "A sentence or two is plenty — the reporting that arrives too late, the systems that don't talk, the ERP nobody adopted…",
       "form.submit": "Send & book a call",
-      "form.legal": "We reply within one business day. Your details are used only to respond to your enquiry.",
-      "form.status": "Thanks — your email app should open with the message ready to send. Prefer to email us directly? hello@decidra.com"
+      "form.legal": "Clicking the button opens your email app with the details ready to fill. We reply within one business day.",
+      "form.status": "Thanks — your email app should open with the message ready to send. Prefer to email us directly? hello@decidra.com",
+      "mail.title": "Book a consultation",
+      "mail.note": "Ready to talk? Send us an email with the details below and we'll reply within one business day — in Arabic or English.",
+      "mail.include": "Please include in your email:",
+      "inc.name": "Your name",
+      "inc.company": "Company",
+      "inc.email": "Work email",
+      "inc.phone": "Phone (or WhatsApp)",
+      "inc.help": "What you need help with",
+      "inc.msg": "What's slowing your decisions down",
+      "mail.btn": "Email us — hello@decidra.com",
+      "mail.subject": "Consultation request — Decidra",
+      "mail.body": "Hello Decidra team,\n\nI'd like to book a consultation. My details:\n\nName: \nCompany: \nWork email: \nPhone: \nWhat I need help with: \nWhat's slowing my decisions down: \n\nThank you."
     },
 
     ar: {
@@ -478,8 +490,20 @@
       "form.msgLabel": "ما الذي يبطئ قراراتك؟ <span class='req'>*</span>",
       "form.msgPh": "جملة أو اثنتان تكفيان — التقارير المتأخرة، الأنظمة التي لا تتحدث، نظام الموارد الذي لم يُعتمد…",
       "form.submit": "أرسل واحجز مكالمة",
-      "form.legal": "نردّ خلال يوم عمل واحد. تُستخدم بياناتك فقط للرد على استفسارك.",
-      "form.status": "شكراً — سيفتح تطبيق البريد لديك والرسالة جاهزة للإرسال. تفضّل مراسلتنا مباشرة؟ hello@decidra.com"
+      "form.legal": "بالضغط على الزر يفتح تطبيق البريد لديك والتفاصيل جاهزة للتعبئة. نردّ خلال يوم عمل واحد.",
+      "form.status": "شكراً — سيفتح تطبيق البريد لديك والرسالة جاهزة للإرسال. تفضّل مراسلتنا مباشرة؟ hello@decidra.com",
+      "mail.title": "احجز استشارة",
+      "mail.note": "مستعدّ للحديث؟ أرسل لنا بريداً إلكترونياً يتضمّن التفاصيل أدناه، وسنردّ خلال يوم عمل واحد — بالعربية أو الإنجليزية.",
+      "mail.include": "يُرجى تضمين ما يلي في بريدك:",
+      "inc.name": "الاسم",
+      "inc.company": "الشركة",
+      "inc.email": "البريد المهني",
+      "inc.phone": "الهاتف (أو واتساب)",
+      "inc.help": "ما الذي تحتاج المساعدة فيه",
+      "inc.msg": "ما الذي يبطئ قراراتك",
+      "mail.btn": "راسلنا — hello@decidra.com",
+      "mail.subject": "طلب استشارة — ديسيدرا",
+      "mail.body": "مرحباً فريق ديسيدرا،\n\nأودّ حجز استشارة. تفاصيلي:\n\nالاسم: \nالشركة: \nالبريد المهني: \nالهاتف: \nما أحتاج المساعدة فيه: \nما الذي يبطئ قراراتي: \n\nشكراً لكم."
     }
   };
 
@@ -507,6 +531,14 @@
 
     var y = document.getElementById('year');
     if (y) { y.textContent = new Date().getFullYear(); }
+
+    // Pre-fill the "Email us" button with a localized subject + body template
+    var eb = document.getElementById('emailBtn');
+    if (eb) {
+      eb.setAttribute('href',
+        'mailto:hello@decidra.com?subject=' + encodeURIComponent(dict['mail.subject'] || '') +
+        '&body=' + encodeURIComponent(dict['mail.body'] || ''));
+    }
 
     window.__lang = lang;
     try { localStorage.setItem('decidra-lang', lang); } catch (e) {}

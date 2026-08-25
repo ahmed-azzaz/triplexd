@@ -29,7 +29,7 @@
     <div class="nav-cta">
       <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language — تبديل اللغة">العربية</button>
       <a class="btn btn-ghost" href="mailto:hello@decidra.com" data-i18n="nav.email">Email us</a>
-      <a class="btn btn-primary" href="#contactForm" data-i18n="nav.book">Book a consultation</a>
+      <a class="btn btn-primary" href="#emailCard" data-i18n="nav.book">Book a consultation</a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
       </button>
@@ -72,58 +72,26 @@
         </ul>
       </div>
 
-      <form class="form-card" id="contactForm" novalidate>
-        <h3 data-i18n="form.title">Book a consultation</h3>
-        <p class="fnote" data-i18n="form.note">No sales script. Just a conversation about what you're trying to decide.</p>
+      <div class="form-card" id="emailCard">
+        <h3 data-i18n="mail.title">Book a consultation</h3>
+        <p class="fnote" data-i18n="mail.note">Ready to talk? Send us an email with the details below and we'll reply within one business day — in Arabic or English.</p>
 
-        <div class="field-row">
-          <div class="field">
-            <label for="name" data-i18n="form.name">Name <span class="req">*</span></label>
-            <input type="text" id="name" name="name" autocomplete="name" required>
-          </div>
-          <div class="field">
-            <label for="company" data-i18n="form.company">Company</label>
-            <input type="text" id="company" name="company" autocomplete="organization">
-          </div>
-        </div>
+        <p class="inc-title" data-i18n="mail.include">Please include in your email:</p>
+        <ul class="inc-list">
+          <li data-i18n="inc.name">Your name</li>
+          <li data-i18n="inc.company">Company</li>
+          <li data-i18n="inc.email">Work email</li>
+          <li data-i18n="inc.phone">Phone (or WhatsApp)</li>
+          <li data-i18n="inc.help">What you need help with</li>
+          <li data-i18n="inc.msg">What's slowing your decisions down</li>
+        </ul>
 
-        <div class="field-row">
-          <div class="field">
-            <label for="email" data-i18n="form.email">Work email <span class="req">*</span></label>
-            <input type="email" id="email" name="email" autocomplete="email" required>
-          </div>
-          <div class="field">
-            <label for="phone" data-i18n="form.phone">Phone</label>
-            <input type="tel" id="phone" name="phone" autocomplete="tel">
-          </div>
-        </div>
-
-        <div class="field">
-          <label for="interest" data-i18n="form.help">What do you need help with?</label>
-          <select id="interest" name="interest">
-            <option data-i18n="opt.notsure">Not sure yet — let's talk</option>
-            <option data-i18n="opt.erp">ERP implementation (Odoo)</option>
-            <option data-i18n="opt.kpi">KPI dashboards &amp; analytics</option>
-            <option data-i18n="opt.custom">Custom / mobile application</option>
-            <option data-i18n="opt.integ">System integration</option>
-            <option data-i18n="opt.mig">Data migration</option>
-            <option data-i18n="opt.ds">Data science / AI</option>
-            <option data-i18n="opt.consult">Business consultation</option>
-          </select>
-        </div>
-
-        <div class="field">
-          <label for="message" data-i18n="form.msgLabel">What's slowing your decisions down? <span class="req">*</span></label>
-          <textarea id="message" name="message" data-i18n-ph="form.msgPh" placeholder="A sentence or two is plenty — the reporting that arrives too late, the systems that don't talk, the ERP nobody adopted…" required></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary form-submit">
-          <span data-i18n="form.submit">Send &amp; book a call</span>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </button>
-        <p class="form-legal" data-i18n="form.legal">We reply within one business day. Your details are used only to respond to your enquiry.</p>
-        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
-      </form>
+        <a class="btn btn-primary form-submit" id="emailBtn" href="mailto:hello@decidra.com">
+          <span data-i18n="mail.btn">Email us — hello@decidra.com</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v14H4z"/><path d="M4 7l8 6 8-6"/></svg>
+        </a>
+        <p class="form-legal" data-i18n="form.legal">Clicking the button opens your email app with the details ready to fill. We reply within one business day.</p>
+      </div>
     </div>
   </div>
 </section>
