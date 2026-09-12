@@ -1,5 +1,5 @@
 /* ============================================================
-   DECIDRA — bilingual (EN / AR) dictionary + engine
+   TRIPLEXD — bilingual (EN / AR) dictionary + engine
    HTML attributes inside values use single quotes.
    ============================================================ */
 (function () {
@@ -17,8 +17,8 @@
       "nav.email": "Email us",
       "nav.home": "Home",
       "skip": "Skip to content",
-      "foot.tag": "Decidra — Turning data into decisions.",
-      "foot.rights": "© <span id='year'>2026</span> Decidra. Technology services &amp; business consulting.",
+      "foot.tag": "TriplexD — Turning data into decisions.",
+      "foot.rights": "© <span id='year'>2026</span> TriplexD. Technology services &amp; business consulting.",
 
       /* ---- shared buttons ---- */
       "btn.bookConsult": "Book a consultation",
@@ -32,7 +32,7 @@
       /* ---- home hero ---- */
       "home.kick": "Turning data into decisions",
       "home.h1": "See your business clearly. Decide with <em>confidence.</em>",
-      "home.sub": "Decidra builds the ERP systems, custom applications, and intelligent KPI dashboards that turn scattered operations into decisions you can stand behind — backed by hands-on product ownership from discovery to long after go-live.",
+      "home.sub": "TriplexD builds the ERP systems, custom applications, and intelligent KPI dashboards that turn scattered operations into decisions you can stand behind — backed by hands-on product ownership from discovery to long after go-live.",
       "home.trust": "<b>ERP · Custom apps · KPI dashboards</b><span aria-hidden='true'>•</span><b>Arabic-native, RTL-ready</b><span aria-hidden='true'>•</span><b>Egypt &amp; the Gulf</b>",
       "home.figcap": "Scattered data &nbsp;·&nbsp; a clear threshold &nbsp;·&nbsp; one confident decision",
       "strip": "<span><b>Serving:</b> Egypt</span><span class='sep'></span><span>Saudi Arabia</span><span class='sep'></span><span>the wider Gulf</span><span class='sep'></span><span><b>Bilingual</b> Arabic (RTL-native) &amp; English</span><span class='sep'></span><span><b>Odoo ERP</b> partner-grade delivery</span>",
@@ -69,7 +69,7 @@
       "home.svc.ai.d": "We apply AI where it creates real value — intelligent reporting, document processing, and ML inside existing systems.",
 
       /* ---- home why ---- */
-      "why.eyebrow": "Why Decidra",
+      "why.eyebrow": "Why TriplexD",
       "homewhy.h2": "We connect the ERP to the decision.",
       "homewhy.p": "Many firms implement ERP. Fewer build the dashboard layer on top that turns it into a management tool. That connection is our core competence.",
 
@@ -170,18 +170,18 @@
       "flow.5": "Training, handover, documentation. <strong style='color:var(--ink)'>You get</strong> a team that can run the system itself.",
       "flow.6": "Support, iteration, and dashboard refinement. <strong style='color:var(--ink)'>You get</strong> a system that keeps getting sharper.",
       "phil.h2": "Technology should serve the decision, not complicate it.",
-      "phil.p1": "Decidra works at the intersection of software engineering, data, and business understanding. Our teams don't just deliver systems — they take ownership of outcomes, working alongside you to make sure what gets built actually moves the business forward.",
+      "phil.p1": "TriplexD works at the intersection of software engineering, data, and business understanding. Our teams don't just deliver systems — they take ownership of outcomes, working alongside you to make sure what gets built actually moves the business forward.",
       "phil.p2": "From enterprise ERP rollouts to custom applications, from raw data migration to AI-powered insight, we cover the full journey: <strong>from scattered operations to clear, confident decisions.</strong> And we're honest about the limits — if the problem is a process problem, we'll say so before we sell you software.",
 
       /* ---- about ---- */
       "about.crumb": "About",
-      "about.eyebrow": "About Decidra",
+      "about.eyebrow": "About TriplexD",
       "about.h1": "The systems that let owners see clearly &amp; <span>decide with confidence.</span>",
-      "about.p": "Decidra is a technology and consulting company built on a simple belief: technology should serve the decision, not complicate it. We work at the intersection of software engineering, data, and business understanding.",
+      "about.p": "TriplexD is a technology and consulting company built on a simple belief: technology should serve the decision, not complicate it. We work at the intersection of software engineering, data, and business understanding.",
       "name.eyebrow": "The name",
-      "name.stmt": "The root is <em>decide</em> — the single moment every one of our services exists to serve.",
+      "name.stmt": "One promise runs through everything we build — <em>turning data into decisions.</em>",
       "name.body": "Whether we're implementing an ERP, migrating a database, or building a predictive model, the end product is always the same: a business owner who can make a call and stand behind it. The full stop in our wordmark is deliberate — it reads as a decision made, a statement closed.",
-      "name.pron": "de-SID-ra &nbsp;·&nbsp; ديسيدرا",
+      "name.pron": "TriplexD &nbsp;·&nbsp; تريبلكس دي",
       "vision.eyebrow": "Our vision",
       "vision.stmt": "A world where complex decisions and leadership are made <em>easier</em> for owners through trustworthy data and KPIs.",
       "vision.alt": "عالمٌ تكون فيه القرارات المعقّدة والقيادة أكثر يُسراً على أصحاب الأعمال، من خلال بيانات ومؤشرات أداء جديرة بالثقة.",
@@ -241,7 +241,7 @@
       "form.msgPh": "A sentence or two is plenty — the reporting that arrives too late, the systems that don't talk, the ERP nobody adopted…",
       "form.submit": "Send & book a call",
       "form.legal": "Clicking the button opens your email app with the details ready to fill. We reply within one business day.",
-      "form.status": "Thanks — your email app should open with the message ready to send. Prefer to email us directly? hello@decidra.com",
+      "form.status": "Thanks — your email app should open with the message ready to send. Prefer to email us directly? info@triplexd.com",
       "mail.title": "Book a consultation",
       "mail.note": "Ready to talk? Send us an email with the details below and we'll reply within one business day — in Arabic or English.",
       "mail.include": "Please include in your email:",
@@ -251,9 +251,9 @@
       "inc.phone": "Phone (or WhatsApp)",
       "inc.help": "What you need help with",
       "inc.msg": "What's slowing your decisions down",
-      "mail.btn": "Email us — hello@decidra.com",
-      "mail.subject": "Consultation request — Decidra",
-      "mail.body": "Hello Decidra team,\n\nI'd like to book a consultation. My details:\n\nName: \nCompany: \nWork email: \nPhone: \nWhat I need help with: \nWhat's slowing my decisions down: \n\nThank you."
+      "mail.btn": "Email us — info@triplexd.com",
+      "mail.subject": "Consultation request — TriplexD",
+      "mail.body": "Hello TriplexD team,\n\nI'd like to book a consultation. My details:\n\nName: \nCompany: \nWork email: \nPhone: \nWhat I need help with: \nWhat's slowing my decisions down: \n\nThank you."
     },
 
     ar: {
@@ -267,8 +267,8 @@
       "nav.email": "راسلنا",
       "nav.home": "الرئيسية",
       "skip": "تخطَّ إلى المحتوى",
-      "foot.tag": "ديسيدرا — نحوّل البيانات إلى قرارات.",
-      "foot.rights": "© <span id='year'>2026</span> ديسيدرا. خدمات تقنية واستشارات أعمال.",
+      "foot.tag": "تريبلكس دي — نحوّل البيانات إلى قرارات.",
+      "foot.rights": "© <span id='year'>2026</span> تريبلكس دي. خدمات تقنية واستشارات أعمال.",
 
       /* ---- shared buttons ---- */
       "btn.bookConsult": "احجز استشارة",
@@ -282,7 +282,7 @@
       /* ---- home hero ---- */
       "home.kick": "نحوّل البيانات إلى قرارات",
       "home.h1": "رؤية أوضح لأعمالك، وقرارٌ <em>تثق به.</em>",
-      "home.sub": "تبني ديسيدرا أنظمة تخطيط الموارد، والتطبيقات المخصّصة، ولوحات مؤشرات الأداء الذكية التي تحوّل عملياتك المبعثرة إلى قرارات تقف خلفها بثقة — مدعومةً بإدارة منتج عملية من مرحلة الاكتشاف وحتى ما بعد الإطلاق بوقت طويل.",
+      "home.sub": "تبني تريبلكس دي أنظمة تخطيط الموارد، والتطبيقات المخصّصة، ولوحات مؤشرات الأداء الذكية التي تحوّل عملياتك المبعثرة إلى قرارات تقف خلفها بثقة — مدعومةً بإدارة منتج عملية من مرحلة الاكتشاف وحتى ما بعد الإطلاق بوقت طويل.",
       "home.trust": "<b>تخطيط الموارد · تطبيقات مخصّصة · لوحات مؤشرات</b><span aria-hidden='true'>•</span><b>عربية أصيلة، بواجهة من اليمين لليسار</b><span aria-hidden='true'>•</span><b>مصر والخليج</b>",
       "home.figcap": "بيانات مبعثرة &nbsp;·&nbsp; عتبة واضحة &nbsp;·&nbsp; قرارٌ واحد واثق",
       "strip": "<span><b>نخدم:</b> مصر</span><span class='sep'></span><span>السعودية</span><span class='sep'></span><span>ومنطقة الخليج</span><span class='sep'></span><span><b>بلغتين:</b> العربية (أصيلة) والإنجليزية</span><span class='sep'></span><span>تنفيذ <b>Odoo</b> باحترافية شريك معتمد</span>",
@@ -319,7 +319,7 @@
       "home.svc.ai.d": "نطبّق الذكاء الاصطناعي حيث يصنع قيمة حقيقية — تقارير ذكية، ومعالجة مستندات، وتعلّم آلي داخل أنظمتك القائمة.",
 
       /* ---- home why ---- */
-      "why.eyebrow": "لماذا ديسيدرا",
+      "why.eyebrow": "لماذا تريبلكس دي",
       "homewhy.h2": "نربط نظام تخطيط الموارد بالقرار.",
       "homewhy.p": "كثير من الشركات تنفّذ أنظمة تخطيط الموارد. قليلون يبنون فوقها طبقة اللوحات التي تحوّلها إلى أداة إدارة. هذا الربط هو جوهر تميّزنا.",
 
@@ -420,18 +420,18 @@
       "flow.5": "تدريب وتسليم وتوثيق. <strong style='color:var(--ink)'>تحصل على</strong> فريق قادر على تشغيل النظام بنفسه.",
       "flow.6": "دعم وتحسين وصقل للوحات. <strong style='color:var(--ink)'>تحصل على</strong> نظام يزداد حدّةً باستمرار.",
       "phil.h2": "ينبغي أن تخدم التقنية القرار، لا أن تُعقّده.",
-      "phil.p1": "تعمل ديسيدرا عند تقاطع هندسة البرمجيات والبيانات وفهم الأعمال. لا تكتفي فرقنا بتسليم الأنظمة — بل تتحمّل مسؤولية النتائج، وتعمل إلى جانبك لتضمن أن ما يُبنى يدفع العمل فعلاً إلى الأمام.",
+      "phil.p1": "تعمل تريبلكس دي عند تقاطع هندسة البرمجيات والبيانات وفهم الأعمال. لا تكتفي فرقنا بتسليم الأنظمة — بل تتحمّل مسؤولية النتائج، وتعمل إلى جانبك لتضمن أن ما يُبنى يدفع العمل فعلاً إلى الأمام.",
       "phil.p2": "من عمليات تخطيط الموارد المؤسسية إلى التطبيقات المخصّصة، ومن ترحيل البيانات الخام إلى الرؤى المدعومة بالذكاء الاصطناعي، نغطّي الرحلة كاملة: <strong>من عمليات مبعثرة إلى قرارات واضحة وواثقة.</strong> ونحن صادقون بشأن الحدود — إن كانت المشكلة في العملية نفسها، سنقولها قبل أن نبيعك برنامجاً.",
 
       /* ---- about ---- */
       "about.crumb": "من نحن",
-      "about.eyebrow": "عن ديسيدرا",
+      "about.eyebrow": "عن تريبلكس دي",
       "about.h1": "الأنظمة التي تمكّن أصحاب الأعمال من الرؤية بوضوح و<span>القرار بثقة.</span>",
-      "about.p": "ديسيدرا شركة تقنية واستشارات قامت على قناعة بسيطة: ينبغي أن تخدم التقنية القرار لا أن تُعقّده. نعمل عند تقاطع هندسة البرمجيات والبيانات وفهم الأعمال.",
+      "about.p": "تريبلكس دي شركة تقنية واستشارات قامت على قناعة بسيطة: ينبغي أن تخدم التقنية القرار لا أن تُعقّده. نعمل عند تقاطع هندسة البرمجيات والبيانات وفهم الأعمال.",
       "name.eyebrow": "الاسم",
-      "name.stmt": "الجذر هو <em>decide</em> (القرار) — اللحظة الوحيدة التي وُجدت كل خدماتنا لأجلها.",
+      "name.stmt": "وعدٌ واحد يمرّ عبر كل ما نبنيه — <em>تحويل البيانات إلى قرارات.</em>",
       "name.body": "سواء ننفّذ نظام تخطيط موارد، أو نرحّل قاعدة بيانات، أو نبني نموذجاً تنبّئياً، فالنتيجة دائماً واحدة: صاحب عمل يستطيع أن يتّخذ قراراً ويقف خلفه. والنقطة في شعارنا مقصودة — تُقرأ كقرارٍ اتُّخذ، وجملةٍ اكتملت.",
-      "name.pron": "de-SID-ra &nbsp;·&nbsp; ديسيدرا",
+      "name.pron": "TriplexD &nbsp;·&nbsp; تريبلكس دي",
       "vision.eyebrow": "رؤيتنا",
       "vision.stmt": "عالمٌ تكون فيه القرارات المعقّدة والقيادة أكثر <em>يُسراً</em> على أصحاب الأعمال، من خلال بيانات ومؤشرات جديرة بالثقة.",
       "vision.alt": "A world where complex decisions and leadership are made easier for owners through trustworthy data and KPIs.",
@@ -491,7 +491,7 @@
       "form.msgPh": "جملة أو اثنتان تكفيان — التقارير المتأخرة، الأنظمة التي لا تتحدث، نظام الموارد الذي لم يُعتمد…",
       "form.submit": "أرسل واحجز مكالمة",
       "form.legal": "بالضغط على الزر يفتح تطبيق البريد لديك والتفاصيل جاهزة للتعبئة. نردّ خلال يوم عمل واحد.",
-      "form.status": "شكراً — سيفتح تطبيق البريد لديك والرسالة جاهزة للإرسال. تفضّل مراسلتنا مباشرة؟ hello@decidra.com",
+      "form.status": "شكراً — سيفتح تطبيق البريد لديك والرسالة جاهزة للإرسال. تفضّل مراسلتنا مباشرة؟ info@triplexd.com",
       "mail.title": "احجز استشارة",
       "mail.note": "مستعدّ للحديث؟ أرسل لنا بريداً إلكترونياً يتضمّن التفاصيل أدناه، وسنردّ خلال يوم عمل واحد — بالعربية أو الإنجليزية.",
       "mail.include": "يُرجى تضمين ما يلي في بريدك:",
@@ -501,9 +501,9 @@
       "inc.phone": "الهاتف (أو واتساب)",
       "inc.help": "ما الذي تحتاج المساعدة فيه",
       "inc.msg": "ما الذي يبطئ قراراتك",
-      "mail.btn": "راسلنا — hello@decidra.com",
-      "mail.subject": "طلب استشارة — ديسيدرا",
-      "mail.body": "مرحباً فريق ديسيدرا،\n\nأودّ حجز استشارة. تفاصيلي:\n\nالاسم: \nالشركة: \nالبريد المهني: \nالهاتف: \nما أحتاج المساعدة فيه: \nما الذي يبطئ قراراتي: \n\nشكراً لكم."
+      "mail.btn": "راسلنا — info@triplexd.com",
+      "mail.subject": "طلب استشارة — تريبلكس دي",
+      "mail.body": "مرحباً فريق تريبلكس دي،\n\nأودّ حجز استشارة. تفاصيلي:\n\nالاسم: \nالشركة: \nالبريد المهني: \nالهاتف: \nما أحتاج المساعدة فيه: \nما الذي يبطئ قراراتي: \n\nشكراً لكم."
     }
   };
 
@@ -536,12 +536,12 @@
     var eb = document.getElementById('emailBtn');
     if (eb) {
       eb.setAttribute('href',
-        'mailto:hello@decidra.com?subject=' + encodeURIComponent(dict['mail.subject'] || '') +
+        'mailto:info@triplexd.com?subject=' + encodeURIComponent(dict['mail.subject'] || '') +
         '&body=' + encodeURIComponent(dict['mail.body'] || ''));
     }
 
     window.__lang = lang;
-    try { localStorage.setItem('decidra-lang', lang); } catch (e) {}
+    try { localStorage.setItem('triplexd-lang', lang); } catch (e) {}
   }
 
   // Expose a translate helper for other scripts (e.g. form status)
@@ -551,7 +551,7 @@
   };
 
   var saved = 'en';
-  try { saved = localStorage.getItem('decidra-lang') || 'en'; } catch (e) {}
+  try { saved = localStorage.getItem('triplexd-lang') || 'en'; } catch (e) {}
   apply(saved);
 
   var toggle = document.getElementById('langToggle');

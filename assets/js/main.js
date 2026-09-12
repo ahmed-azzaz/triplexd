@@ -1,5 +1,5 @@
 /* ============================================================
-   DECIDRA — shared behaviour
+   TRIPLEXD — shared behaviour
    ============================================================ */
 (function () {
   'use strict';
@@ -66,14 +66,14 @@
         'Phone: ' + (v('phone') || '—') + '\n' +
         'Interested in: ' + v('interest') + '\n\n' +
         'Message:\n' + v('message') + '\n';
-      var mailto = 'mailto:hello@decidra.com'
+      var mailto = 'mailto:info@triplexd.com'
         + '?subject=' + encodeURIComponent(subject)
         + '&body=' + encodeURIComponent(body);
       window.location.href = mailto;
       if (status) {
         status.textContent = (typeof window.t === 'function')
           ? window.t('form.status')
-          : 'Thanks — your email app should open with the message ready to send. Prefer to email us directly? hello@decidra.com';
+          : 'Thanks — your email app should open with the message ready to send. Prefer to email us directly? info@triplexd.com';
         status.classList.add('show');
       }
     });
