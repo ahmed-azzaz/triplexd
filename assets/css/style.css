@@ -282,6 +282,10 @@ section{scroll-margin-top:84px;}
 .statement-text em{font-style:normal;color:var(--amber);}
 .statement-body{font-size:16px;line-height:1.7;color:var(--ink-soft);margin:22px 0 0;max-width:56ch;}
 .statement-ar{font-size:15px;line-height:1.9;color:var(--ink-soft);margin:18px 0 0;max-width:52ch;direction:rtl;text-align:right;}
+.ddd{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 4px;padding:0;list-style:none;direction:ltr;}
+.ddd li{display:flex;align-items:baseline;gap:9px;border:1px solid var(--line);border-radius:7px;padding:9px 15px 10px;background:var(--card);}
+.ddd b{font-family:var(--display);font-weight:800;font-size:22px;color:var(--amber);line-height:1;}
+.ddd span{font-size:14.5px;font-weight:500;color:var(--ink);}
 @media (max-width:820px){.statement-grid{grid-template-columns:1fr;gap:22px;}}
 
 /* ---------- prose ---------- */
